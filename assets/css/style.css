@@ -29,7 +29,44 @@ font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
 }
+/* 
+.dark-mode {
+    color: white;
+}
 
+.dark-mode {
+    background-color: #333; /* Defina a cor de fundo escura */
+    color: #fff; /* Defina a cor do texto como branco */
+    /* Adicione outros estilos específicos para o modo escuro aqui */
+}
+
+#dark-mode-toggle {
+    background-color: transparent;
+    border: 2px solid #fff; /* Cor da borda */
+    color: #fff; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Alterar cursor ao passar o mouse */
+    transition: all 0.3s ease; /* Efeito de transição suave */
+    
+}
+
+#dark-mode-toggle:hover {
+    background-color: #fff; /* Cor de fundo ao passar o mouse */
+    color: #333; /* Cor do texto ao passar o mouse */
+}
+
+.dark-mode #dark-mode-toggle {
+    border-color: #333; /* Cor da borda no modo escuro */
+    color: #333; /* Cor do texto no modo escuro */
+}
+
+.dark-mode #dark-mode-toggle:hover {
+    background-color: #333; /* Cor de fundo ao passar o mouse no modo escuro */
+    color: #fff; /* Cor do texto ao passar o mouse no modo escuro */
+} */
+
+  
 *{
 	-webkit-box-sizing:border-box;
 	-moz-box-sizing:border-box;
@@ -230,7 +267,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     text-transform: capitalize;
     color: #fff;
     background: #b636ff;
-    border:1px solid #b636ff;
+    border:0.5px solid #ffffffc4;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
     -webkit-transition: 0.3s linear; 
     -moz-transition: 0.3s linear; 
@@ -294,7 +331,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     left: 0;
     width: 109%;
     height: 90px;
-    background: #1f2c6c;
+    background: #8807af83;
 }
 /*.ab-list-icon */
 .about-list-icon ul {
